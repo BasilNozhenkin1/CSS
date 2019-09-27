@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  align-content: stretch;
+  flex-wrap: wrap;
+}
+.col {
+  display: flex;
+  flex-direction: column;
+}
+.item-image {
+  display: flex;
+  width: 300px;
+  height: 200px;
+  margin: 5px;
+}
+.item-image-stretch {
+  flex: 1;
+}
